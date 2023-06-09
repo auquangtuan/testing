@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "src/components/partials/sidebar/MobileMenu.tsx",
+    "src/components/partials/header/Tools/Profile.tsx",
+    "src/components/partials/widget/chart/revenue-bar-chart.tsx",
+    "src/components/partials/widget/chart/group-chart-1.jsx",
+    "src/pages/api/auth/login.ts"
+  ],
+  "exclude": ["node_modules"]
+}
